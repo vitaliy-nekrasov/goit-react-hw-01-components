@@ -1,16 +1,19 @@
+import { Profile } from './profile/profile';
+import userData from './profile/user.json';
+import { Box } from './box/Box';
+
+const { avatar, tag, location, username, stats } = userData;
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <Box pl="20px" pt="20px">
+      <Profile
+        avatar={avatar}
+        tag={tag}
+        location={location}
+        username={username}
+        stats={stats}
+      />
+    </Box>
   );
 };

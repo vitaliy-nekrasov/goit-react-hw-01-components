@@ -4,6 +4,8 @@ export const Wrapper = styled.div`
   max-width: 271px;
   border: ${p =>
     `${p.theme.spacing[0]} solid ${p.theme.colors.secondaryColor}`};
+  border-radius: ${p => p.theme.spacing[2]};
+  overflow: hidden;
 `;
 
 export const Description = styled.div`

@@ -6,6 +6,7 @@ export const Wrapper = styled.div`
     `${p.theme.spacing[0]} solid ${p.theme.colors.secondaryColor}`};
   border-radius: ${p => p.theme.spacing[2]};
   overflow: hidden;
+  margin-bottom: ${p => p.theme.spacing[5]};
 `;
 
 export const Description = styled.div`

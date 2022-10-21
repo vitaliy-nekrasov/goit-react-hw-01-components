@@ -9,7 +9,7 @@ import {
 } from './statistics.styled';
 
 export function Statistics(props) {
-  const { title = undefined, stats } = props;
+  const { title, stats } = props;
   return (
     <StatSection>
       {title && <StatTitle>{title}</StatTitle>}

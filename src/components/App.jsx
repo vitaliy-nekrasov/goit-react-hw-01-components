@@ -3,6 +3,8 @@ import userData from './profile/user.json';
 import { Box } from './box/Box';
 import data from './statistics/data.json';
 import { Statistics } from './statistics/statistics';
+import friends from './friendList/friends.json';
+import { FriendList } from './friendList/friendList';
 
 const { avatar, tag, location, username, stats } = userData;
 
@@ -18,6 +20,7 @@ export const App = () => {
       />
       <Statistics title="Upload stats" stats={data} />
       <Statistics stats={data} />
+      <FriendList friends={friends} />
     </Box>
   );
 };

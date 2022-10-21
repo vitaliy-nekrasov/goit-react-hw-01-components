@@ -28,7 +28,7 @@
 отображать информацию о пользователе социальной сети. Данные о пользователе
 лежат в файле user.json.
 
-<img src="/lms-react-homework/v1/img/hw-01/social-profile.png" alt="component preview" style="display:block;width:100%;margin-left:auto;margin-right:auto;margin-bottom:var(--ifm-leading);max-width:480px" class="medium-zoom-image">
+<img src="https://textbook.edu.goit.global/lms-react-homework/v1/img/hw-01/social-profile.png">
 
 ## Описание компонента `Profile`
 

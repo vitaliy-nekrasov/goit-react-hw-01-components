@@ -93,7 +93,7 @@ import user from 'path/to/user.json;
 пользователями разных стран, финансовые траты и т. п. Данные о статистике лежат
 в файле data.json.
 
-<img src="/lms-react-homework/v1/img/hw-01/statistics.jpg" alt="component preview" style="display:block;width:100%;margin-left:auto;margin-right:auto;margin-bottom:var(--ifm-leading);max-width:480px" class="medium-zoom-image">
+<img src="https://textbook.edu.goit.global/lms-react-homework/v1/img/hw-01/statistics.jpg">
 
 ## Описание компонента `Statistics​`
 
@@ -149,7 +149,7 @@ import data from '/path/to/data.json';
 отображать информацию о друзьях пользователя. Информация о друзьях хранится в
 файле friends.json.
 
-<img src="/lms-react-homework/v1/img/hw-01/friend-list.jpg" alt="component preview" style="display:block;width:100%;margin-left:auto;margin-right:auto;margin-bottom:var(--ifm-leading);max-width:320px" class="medium-zoom-image">
+<img src="https://textbook.edu.goit.global/lms-react-homework/v1/img/hw-01/friend-list.jpg">
 
 ## Описание компонента `FriendList​`
 
@@ -197,7 +197,7 @@ import friends from 'path/to/friends.json';
 Необходимо создать компонент истории транзакций в личном кабинете интернет
 банка.
 
-<img src="/lms-react-homework/v1/img/hw-01/transactions.jpg" alt="component preview" style="display:block;width:100%;margin-left:auto;margin-right:auto;margin-bottom:var(--ifm-leading);max-width:800px" class="medium-zoom-image">
+<img src="https://textbook.edu.goit.global/lms-react-homework/v1/img/hw-01/transactions.jpg">
 
 Данные для списка доступны в формате JSON в файле transactions.json. Это массив
 объектов, где каждый объект описывает одну транзакцию со следующими свойствами:
